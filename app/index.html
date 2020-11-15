@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Title Here"/> <!-- a remplir -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.example.com/"/>
+    <meta property="og:image" content="http://example.com/image.jpg"/>
+    <meta property="og:description" content="Description Here"/>
+    <title>Projet_2</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <div class="col-8">
+        <a href="index.html" class="logo"><img src="img/logo/reservia.svg" alt="Logo Reservia"/></a>
+      </div>
+      <div class="col-4">
+        <nav>
+          <a class="active" href="#rentals">Hébergements</a>
+          <a href="#activities">Activités</a>
+          <a class="signing" href="#signing">S'inscrire</a>
+        </nav>
+      </div>
+    </header>
+    
+    <section id="search">
+      <div class="container">
+        <div class="col-6 row">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div class="col-4 row">
+          <form class="search-form" action="#.php">
+            <button class="map-marker"><i class="fa fa-map-marker"></i></button>
+            <input class ="search-city" type="text" placeholder="Marseille, France" name="search-city">
+            <button class="search-trigger" type="submit">Rechercher</button>
+          </form>
+        </div>
+        <div class="col-9 row">
+          <form class="filters-form">
+            Filtres
+            <input type="radio" id="eco" name="eco" value="eco">
+            <label for="eco">Economique</label>
+            <input type="radio" id="family" name="family" value="family">
+            <label for="family">Familial</label>
+            <input type="radio" id="romantic" name="romantic" value="romantic">
+            <label for="romantic">Romantique</label>
+            <input type="radio" id="animals" name="animals" value="animals">
+            <label for="animals">Animaux autorisés</label>
+          </form>
+        </div>
+        <div class="col-5 row">
+          <p><i class="fa fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rentals">
+
+      <aside class="col-4 popular">
+        <h2>Les plus populaires</h2>
+          <div class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </div>
+          <div class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </div>
+          <div class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </div>
+      </aside> 
+
+      <div class="col-8 rentals-display">
+        <h2>Hébergements à Marseille</h2>
+        <ul>
+          <li class="rental-card">
+              <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+              <div class="caption">
+                <h3><b>Auberge la Cannebière</b></h3> 
+                Nuit à partir de 25€<br>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> 
+              </div>
+          </li>
+          <li class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </li>
+          <li class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </li>
+          <li class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </li>
+          <li class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </li>
+          <li class="rental-card">
+            <img src="img/thumbnail/marseille_auberge_cannebiere_small.jpg" alt="Avatar" style="width:100%">
+            <div class="caption">
+              <h3><b>Auberge la Cannebière</b></h3> 
+              Nuit à partir de 25€<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> 
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+
+
+
+    <section id="activities">
+      <div class="col-12">
+        <h2>Activités à Marseille</h2>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="col-4">
+        <h3>A propos</h3>
+          <ul class="list-footer">
+            <li><a href="#">Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
+          </ul>
+      </div>
+      <div class="col-4">
+        <h3>Nos hébergements</h3>
+          <ul class="list-footer">
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+          </ul>
+      </div>
+      <div class="col-4">
+        <h3>Assistance</h3>
+          <ul class="list-footer">
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+      </div>
+    </footer>
+
+    <div class="hero-unit">
+      <h1>'Allo, 'Allokjncjvn!</h1>
+      <p>You now have</p>
+      <ul>
+        <li>HTML5 Boilerplate</li>
+      </ul>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
