@@ -12,3 +12,4 @@
 [1213/023854.182:ERROR:exception_snapshot_win.cc(99)] thread ID 16624 not found in process
 [1213/025740.985:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
 [1216/083820.004:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1228/040009.238:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)

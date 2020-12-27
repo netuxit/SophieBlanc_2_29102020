@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Title Here"/> <!-- a remplir -->
+    <meta property="og:title" content="Title Here"/> 
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://www.example.com/"/>
     <meta property="og:image" content="http://example.com/image.jpg"/>
@@ -27,6 +27,7 @@
     <header>
       <div class="logo-header">
         <a href="index.html" class="logo"><img src="img/logo/reservia.svg" alt="Logo Reservia"/></a>
+        <a class="nav-item-3 signing mbl" href="#signing">S'inscrire</a>
       </div>
       <div class="menu-header">
         <nav>
@@ -40,17 +41,16 @@
     <section id="search">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-    
         <div class="input-search">
-          <form class="search-form" action="">
+          <form class="search-form" action="search_action">
             <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
             <input class ="search-city" type="text" placeholder="Marseille, France" name="search-city">
             <button class="search-trigger" type="submit">Rechercher</button>
+            <button class="search-trigger-mbl" type="submit"><i class="fas fa-search"></i></button>
           </form>
         </div>
-
         <div class="filters-search">
-          <form class="filters-form" action="">
+          <form class="filters-form" action="filters_action">
             <span class="filters-text">Filtres</span>
               <div class="filters-box">
                 <span class="filters-icon"><i class="fas fa-money-bill-wave"></i></span>
@@ -226,7 +226,6 @@
         </div>
       </div>
     </section>
-
 
     <section id="activities">
       <div class="activities-row">
