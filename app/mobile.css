@@ -1,6 +1,4 @@
 @media only screen and (max-width: 600px) {
-
-
   body {
     width: fit-content;
   }
@@ -36,7 +34,7 @@
   }
 
   .logo-header {
-    order:1;
+    order: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,16 +42,15 @@
     width: 90%;
   }
   .logo-header .mbl {
-    display: initial;  
+    display: initial;
     font-weight: bolder;
-    color: #0065FC;
+    color: #0065fc;
   }
-  
+
   .menu-header {
     order: 2;
-   
   }
-  
+
   nav {
     display: flex;
   }
@@ -61,11 +58,11 @@
   .nav-item-1 {
     order: 2;
   }
-  
+
   .nav-item-2 {
     order: 3;
   }
-  
+
   .nav-item-3 {
     order: 1;
     display: none;
@@ -80,11 +77,9 @@
     padding-bottom: 20px;
     padding-top: 25px;
     text-decoration: none;
-    border-bottom: solid 2px #0065FC;
+    border-bottom: solid 2px #0065fc;
     border-top: none;
   }
-
-
 
   #search {
     padding-left: 15px;
@@ -106,24 +101,23 @@
   }
 
   .search-trigger-mbl {
-    display: initial;  
+    display: initial;
     order: 3;
     width: 50px;
     height: 45px;
     padding: 10px;
-    background: #0065FC;
+    background: #0065fc;
     color: white;
-    border: 1px solid #0065FC;
+    border: 1px solid #0065fc;
     border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1em;
   }
 
   .filters-search {
-    margin-top: 0px; 
+    margin-top: 0px;
   }
-
 
   .filters-text {
     margin-top: 0px;
@@ -158,7 +152,7 @@
   }
 
   #rentals {
-    margin-right: 0px; 
+    margin-right: 0px;
     margin-left: 0px;
   }
 
@@ -185,7 +179,7 @@
     order: 3;
     display: contents;
   }
-  
+
   footer {
     order: 4;
     flex-direction: column;
@@ -216,7 +210,8 @@
     margin-top: 25px;
   }
 
-  .checked, .unchecked {
+  .checked,
+  .unchecked {
     font-size: 14px !important;
   }
 
@@ -228,7 +223,7 @@
   .rental-link-card {
     height: 200px;
     margin: 15px 0px 0px 10px;
-}
+  }
 
   .rental-card-image {
     width: 335px;
@@ -240,10 +235,6 @@
     height: 75px;
   }
 
-
-
-
-
   .display-more {
     font-size: 17px;
     margin-left: 15px;
@@ -253,7 +244,12 @@
     margin: 50px 5px 40px 5px;
   }
 
-  .activity-card-1, .activity-card-2, .activity-card-3, .activity-card-4, .activity-card-5, .activity-card-6  {
+  .activity-card-1,
+  .activity-card-2,
+  .activity-card-3,
+  .activity-card-4,
+  .activity-card-5,
+  .activity-card-6 {
     width: 335px;
     height: 190px;
     margin: 15px 15px 25px 15px;
@@ -262,17 +258,14 @@
   .activity-card-image {
     width: 335px;
     height: 70%;
-}
+  }
 
   .activity-card-caption {
     width: 335px;
     margin-top: 7px;
-}
+  }
 
-.col-footer {
-  width: 70%;
-}
-
-
-
+  .col-footer {
+    width: 70%;
+  }
 }

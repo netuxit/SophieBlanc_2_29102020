@@ -1,5 +1,5 @@
-/* --- GENERAL --- */ 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* --- GENERAL --- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body {
   margin: auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: black;
 }
@@ -58,8 +58,7 @@ p {
   padding-bottom: 15px;
 }
 
-
-/* --- STYLE FOR HEADER --- */ 
+/* --- STYLE FOR HEADER --- */
 header {
   display: flex;
   flex-direction: row;
@@ -67,17 +66,17 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 25px;
-  }
+}
 .logo-header {
-   width: 70%;
+  width: 70%;
 }
 .logo-header .mbl {
-  display: none;  
+  display: none;
 }
 .menu-header {
   width: 30%;
 }
-  
+
 nav > a {
   font-size: 18px;
   padding-left: 40px;
@@ -89,7 +88,7 @@ nav > a {
 }
 nav > a:hover {
   font-size: 18px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 nav > a.active {
   font-size: 18px;
@@ -98,19 +97,22 @@ nav > a.active {
   padding-bottom: 40px;
   padding-top: 42px;
   text-decoration: none;
-  color: #0065FC;
-  border-top: solid 2px #0065FC ;
+  color: #0065fc;
+  border-top: solid 2px #0065fc;
 }
 nav > a.signing {
   font-weight: bold;
-  color: #0065FC;
+  color: #0065fc;
 }
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
 
-/* --- STYLE FOR SECTION 1 (FILTERS) --- */ 
+/* --- STYLE FOR SECTION 1 (FILTERS) --- */
 
 #search {
   padding-left: 50px;
@@ -129,7 +131,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .search-form {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   display: flex;
 }
 
@@ -139,9 +141,9 @@ a, a:hover, a:focus, a:active {
   height: 45px;
   padding-top: 12px;
   padding-left: 17px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   color: black;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -153,8 +155,8 @@ a, a:hover, a:focus, a:active {
   padding: 10px;
   background: #ffffff;
   color: black;
-  border: 1px solid #F2F2F2;
-  font-family: 'Raleway', sans-serif;
+  border: 1px solid #f2f2f2;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1em;
 }
@@ -164,12 +166,12 @@ a, a:hover, a:focus, a:active {
   width: 120px;
   height: 45px;
   padding: 10px;
-  background: #0065FC;
+  background: #0065fc;
   color: white;
-  border: 1px solid #0065FC;
+  border: 1px solid #0065fc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1em;
 }
@@ -189,8 +191,8 @@ a, a:hover, a:focus, a:active {
 }
 
 .filters-box {
-  border: 2px solid #D9D9D9;
-  border-left: none ;
+  border: 2px solid #d9d9d9;
+  border-left: none;
   border-radius: 90px;
   margin-left: 10px;
   margin-right: 10px;
@@ -199,14 +201,12 @@ a, a:hover, a:focus, a:active {
   align-items: center;
 }
 
-.filters-box:hover{
-  border: 2px solid #0065FC;
+.filters-box:hover {
+  border: 2px solid #0065fc;
 }
 
-
- 
 .filters-icon {
-  background-color: #DEEBFF;
+  background-color: #deebff;
   border: none;
   border-radius: 90px;
   height: 50px;
@@ -215,11 +215,10 @@ a, a:hover, a:focus, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .filters-icon > .fas {
-  color: #0065FC;
+  color: #0065fc;
 }
 
 .filters-checkbox {
@@ -231,12 +230,11 @@ a, a:hover, a:focus, a:active {
   margin-right: 10px;
 }
 
-
 .filters-box input[type="checkbox"] {
   display: none;
 }
 
-/* --- STYLE FOR SECTION 2 (RENTALS) --- */ 
+/* --- STYLE FOR SECTION 2 (RENTALS) --- */
 
 #rentals {
   display: flex;
@@ -246,17 +244,17 @@ a, a:hover, a:focus, a:active {
   margin-bottom: 25px;
 }
 
- .popular {
+.popular {
   order: 2;
   display: flex;
   flex-direction: column;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px 40px 5px 40px;
   border-radius: 15px;
 }
 
 .rentals-container {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px 40px 15px 40px;
   border-radius: 15px;
   margin-right: 35px;
@@ -280,12 +278,11 @@ a, a:hover, a:focus, a:active {
 }
 
 .side-rental-card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
   width: 460px;
   height: 200px;
   border-radius: 15px;
-  
 }
 
 .side-rental-card-image {
@@ -315,7 +312,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .rental-card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
   width: 330px;
   height: 270px;
@@ -339,12 +336,12 @@ a, a:hover, a:focus, a:active {
 }
 
 .checked {
-  color: #0065FC;
+  color: #0065fc;
   font-size: 19px !important;
 }
 
 .unchecked {
-  color:#D9D9D9;
+  color: #d9d9d9;
   font-size: 19px !important;
 }
 
@@ -354,12 +351,9 @@ a, a:hover, a:focus, a:active {
   font-size: 18px;
 }
 
-
-
-
-/* --- STYLE FOR SECTION 3 (RENTALS) --- */ 
+/* --- STYLE FOR SECTION 3 (RENTALS) --- */
 #activities {
-  margin : 60px 25px 25px 25px;
+  margin: 60px 25px 25px 25px;
 }
 
 .activities-row {
@@ -379,7 +373,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .activity-card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 15px;
   width: 410px;
@@ -452,13 +446,12 @@ a, a:hover, a:focus, a:active {
   height: 210px;
 }
 
-
-/* --- STYLE FOR FOOTER --- */ 
+/* --- STYLE FOR FOOTER --- */
 footer {
   display: flex;
   justify-content: space-between;
   height: 200px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 40px;
