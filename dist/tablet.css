@@ -1,0 +1,224 @@
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    width: 725px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 19px;
+    margin-left: 15px;
+  }
+
+  h3 {
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .popular {
+    order: 2;
+  }
+
+  .rentals-container {
+    order: 1;
+  }
+
+  .activities-display {
+    order: 3;
+    height: 1700px;
+  }
+
+  footer {
+    order: 4;
+  }
+
+  header {
+    padding-right: 0px;
+    padding-left: 45px;
+  }
+
+  .logo-header {
+    width: 22%;
+  }
+  .menu-header {
+    width: 85%;
+  }
+
+  #search {
+    padding-left: 15px;
+    padding-right: 40px;
+    width: 900px;
+  }
+
+  .search-form {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .search-city {
+    width: 260px;
+  }
+
+  .search-trigger {
+    display: none;
+  }
+
+  .search-trigger-mbl {
+    display: initial;
+    order: 3;
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    background: #0065fc;
+    color: white;
+    border: 1px solid #0065fc;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .filters-search {
+    margin-top: 0px;
+  }
+
+  .filters-text {
+    margin-top: 0px;
+    position: absolute;
+    top: 305px;
+    left: 50px;
+  }
+
+  .filters-form {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+  }
+
+  .filters-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .fa-chart-line {
+    display: none !important;
+  }
+
+  #rentals {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .rentals-container {
+    width: 360px;
+  }
+
+  .popular {
+    width: 360px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .rentals-container {
+    padding: 10px 10px 10px 10px;
+    margin-right: 15px;
+  }
+  .rental-card {
+    width: 290px;
+    height: 250px;
+  }
+
+  .rental-card-image {
+    width: 290px;
+  }
+
+  .rental-link-card {
+    height: 270px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .rental-card-caption {
+    width: 290px;
+    height: 105px;
+  }
+
+  .side-rental-card {
+    width: 290px;
+    height: 330px;
+    margin-bottom: 18px;
+  }
+
+  .side-rental-card-image {
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 5px 5px;
+    object-fit: cover;
+    width: 290px;
+    height: 210px;
+  }
+
+  .side-rental-link-card {
+    height: 270px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .side-rental-card-caption {
+    width: 290px;
+    height: 105px;
+    margin-top: 0px;
+    padding: 5px 16px;
+  }
+
+  .side-rental-card-notation {
+    margin-top: 3px;
+  }
+
+  .rental-link-card-side {
+    margin: 5px 15px 0px 25px;
+  }
+
+  .activities-display {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .activity-card {
+    height: 240px;
+    width: 655px;
+  }
+
+  .activity-card-image {
+    height: 180px;
+    width: 655px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .filters-text {
+    left: 180px;
+  }
+}
