@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   body {
     width: fit-content;
   }
@@ -39,11 +39,13 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
-    width: 90%;
   }
+
   .logo-header .mbl {
     display: initial;
+    margin-right: 20px;
     font-weight: bolder;
+    font-size: 18px;
     color: #0065fc;
   }
 
@@ -57,10 +59,14 @@
 
   .nav-item-1 {
     order: 2;
+    width: 50%;
+    text-align: center;
   }
 
   .nav-item-2 {
     order: 3;
+    width: 50%;
+    text-align: center;
   }
 
   .nav-item-3 {
@@ -71,6 +77,8 @@
   nav > a {
     padding-bottom: 20px;
     padding-top: 25px;
+    border-bottom: solid 2px #f5F5F5;
+    border-top: none;
   }
 
   nav > a.active {
@@ -79,12 +87,6 @@
     text-decoration: none;
     border-bottom: solid 2px #0065fc;
     border-top: none;
-  }
-
-  #search {
-    padding-left: 15px;
-    padding-right: 40px;
-    width: 400px;
   }
 
   .search-form {
@@ -120,17 +122,14 @@
   }
 
   .filters-text {
-    margin-top: 0px;
-    position: absolute;
-    top: 360px;
-    left: 20px;
+    flex-basis: 100%;
   }
 
   .filters-form {
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 45px;
+    margin-top: 15px;
   }
 
   .filters-box {
@@ -189,6 +188,9 @@
   .side-rental-card {
     width: 335px;
     height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .side-rental-card-image {
@@ -213,6 +215,12 @@
   .checked,
   .unchecked {
     font-size: 14px !important;
+  }
+
+  .container, .rentals-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .rental-card {
@@ -252,7 +260,10 @@
   .activity-card-6 {
     width: 335px;
     height: 190px;
-    margin: 15px 15px 25px 15px;
+    /* margin: 15px 15px 25px 15px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .activity-card-image {

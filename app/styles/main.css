@@ -60,21 +60,22 @@ p {
 
 /* --- STYLE FOR HEADER --- */
 header {
-  display: flex;
-  flex-direction: row;
+  /* display: list-item; */
+  /* flex-direction: row; */
   padding-top: 45px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 25px;
+  margin-bottom: 35px;
 }
 .logo-header {
-  width: 70%;
+  float: left;
 }
 .logo-header .mbl {
   display: none;
 }
 .menu-header {
-  width: 30%;
+  float: right;
 }
 
 nav > a {
@@ -196,7 +197,6 @@ a:active {
   border-radius: 90px;
   margin-left: 10px;
   margin-right: 10px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -212,7 +212,7 @@ a:active {
   height: 50px;
   width: 50px;
   margin-right: 10px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
@@ -273,8 +273,8 @@ a:active {
 }
 
 .fa-chart-line {
-  position: absolute;
-  right: 80px;
+  position: relative;
+  float: right;
 }
 
 .side-rental-card {
@@ -352,19 +352,28 @@ a:active {
 }
 
 /* --- STYLE FOR SECTION 3 (RENTALS) --- */
-#activities {
-  margin: 60px 25px 25px 25px;
-}
+ #activities {
+  margin: 60px 25px 25px 25px; 
+} 
 
 .activities-row {
   margin-left: 20px;
 }
 
 .activities-display {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 650px;
+  height: 650px; */
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.activity-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
 .rental-link-card {
@@ -473,4 +482,50 @@ footer {
 .list-footer > li > a {
   text-decoration: none;
   color: black;
+}
+
+
+/* Medium + computer screen */
+@media only screen and (max-width: 1770px) {
+  .activity-column {
+    flex: 33%;
+    max-width: 33%;
+  }
+
+}
+
+/* Medium - computer screen */
+@media only screen and (max-width: 1355px) {
+  .activity-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+
+/* Small computer screen */
+@media only screen and (max-width: 940px) {
+  .filters-text {
+    flex-basis: 100%;
+  }
+
+  .filters-form {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .filters-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+
+  .activity-column {
+      flex: 100%;
+      max-width: 100%;
+  }
+
 }
