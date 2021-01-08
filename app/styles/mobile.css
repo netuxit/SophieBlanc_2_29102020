@@ -1,6 +1,6 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767px) {
   body {
-    width: fit-content;
+    width: auto;
   }
 
   h1 {
@@ -87,6 +87,11 @@
     text-decoration: none;
     border-bottom: solid 2px #0065fc;
     border-top: none;
+  }
+
+  #search {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .search-form {
